@@ -1,0 +1,60 @@
+1.Q. How did viewing a diff between two versions 
+of a file help you see the bug that was introduced?
+It pin-pointed to the where the typo was
+and helped me correct my mistake.
+I did not have to go through the whole big file.
+
+2.Q. How could having easy access to the entire 
+history of a file make you a more efficient
+programmer in the long term?
+Suppose you commit a mistake and the whole
+program which you wrote goes haywire,
+you can just jump back to a previous version!
+
+3.Q. What do you think are the pros and cons of 
+manually choosing when to create a commit, like 
+you do in Git, vs having versions automatically 
+saved, like Google Docs does?
+When manually choosing, human error might come
+into picture and we might forget to commit.
+All our work will be lost.
+On the other hand, auto-commit will give too
+many commits and we might not have even
+finished typing when it automatically
+commits.
+
+4.Q. Why do you think some version control 
+systems, like Git, allow saving multiple files 
+in one commit, while others, like Google Docs, 
+treat each file separately?
+While writing a program or a webpage, you handle
+multiple files which are interconnected to
+control the whole project. So it makes sense to
+allow saving multiple files in one commit.
+Whereas, in Google Docs, documents are not
+interrelated, and there is no need to save
+multiple files at the same time.
+
+5.Q. How can you use the commands git log and 
+git diff to view the history of files?
+First you decide which part in history you want
+to view. Then you use log to navigate to that
+commit at that point in history.
+Then, you should use diff to compare it to the
+previous or present version.
+
+6.Q. How might using version control make you 
+more confident to make changes that could break 
+something?
+Now that our current version is saved, we don't
+need to worry about any changes we make in the
+future because we can always revert back to the
+commit in which it was working perfectly.
+
+7.Q. Now that you have your workspace set up, 
+what do you want to try using Git for?
+Since I am just a beginning programmer, I
+want to use git for whatever project I am
+going to work on, whether I want to do
+web-development or any other type of
+programmer. This is just the beginning.
