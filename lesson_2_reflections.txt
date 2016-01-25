@@ -1,4 +1,4 @@
-1.Q. What happens when you initialize a repository? 
+1.Q. What happens when you initialize a repository?
 Why do you need to do it?
 When you initialize a repository, it creates a new
 folder called .git to keep all the commits and
@@ -10,3 +10,12 @@ do you think it offers?
 The staging area is the preparation area for a
 commit. It prepares the file so that it can be
 changed in the working directory or repository.
+
+3.Q. How can you use the staging area to make 
+sure you have one commit per logical change?
+Once you make a small change, you can add it
+to the staging area. Then you can even check
+out what change you have made by using diff
+to compare with working directory. You can
+keep adding small changes to the staging
+and can commit when you finish a logical change.
