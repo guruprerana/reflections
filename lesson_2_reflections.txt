@@ -28,3 +28,9 @@ some important chnages but we are not sure about it.
 In such a situation, we can create a branch so that
 the changes we make does not affect the working
 version.
+
+5.Q. How do the diagrams help you visualize the 
+branch structure?
+With diagrams, it becomes very easy to understand
+the structure of commits and easily understand all
+changes that have happened.
