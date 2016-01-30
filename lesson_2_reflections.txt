@@ -34,3 +34,11 @@ branch structure?
 With diagrams, it becomes very easy to understand
 the structure of commits and easily understand all
 changes that have happened.
+
+6.Q. What is the result of merging two branches 
+together? Why do we represent it in the diagram the 
+way we do?
+When we merge two branches, all the changes we have
+introduced in both branches get combined together.
+You represent it like that because, the new merged
+commit is a combined version.
