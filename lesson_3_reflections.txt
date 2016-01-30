@@ -5,3 +5,11 @@ OR
 When many people are working on the same project.
 OR
 We are creating an open source project.
+
+2.Q Why might you want to always pull changes manually
+rather than having Git automatically stay up-to-date 
+with your remote repository?
+We might not always want to pull all the changes
+introduced. When we do it manually we can choose
+which changes we want to be incorporated in our
+local computer.
