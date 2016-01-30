@@ -14,6 +14,17 @@ introduced. When we do it manually we can choose
 which changes we want to be incorporated in our
 local computer.
 
+3.Q Describe the differences between forks, clones, and 
+branches. When would you use one instead of another?
+I would use forks when I want to make personal changes
+on someone else's project on GitHub on whose I do not
+have permissions to change anything.
+I would use clone when I want to work on a repository
+on my local computer.
+I would use branches when I want to introduce a new
+feature which may or may not work, on my local
+computer.
+
 Commands:
 
 git remote  |    Show all remote locations for the repository
