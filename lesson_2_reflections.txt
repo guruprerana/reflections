@@ -42,3 +42,27 @@ When we merge two branches, all the changes we have
 introduced in both branches get combined together.
 You represent it like that because, the new merged
 commit is a combined version.
+
+7.Q. What are the pros and cons of Git’s automatic 
+merging vs. always doing merges manually?
+When Git merges automatically, it may result in a
+mix of two versions where the program might not
+even work.
+But, when we do it manually we can pick and choose
+the better aspects of both the versions to create one
+working version.
+
+Commands:
+
+git add  |    Add a file to the staging area
+git commit  |    Commit the files from the staging area to the repository 
+git status  |    Show which files are in the staging area, and which files from the working directory are not part of the repository    
+git diff  |    Git diff without arguments is comparing the working directory with the staging area
+git diff --staged  |    Compare the staging area with the repository
+git reset --hard  |    Undo all changes! There is no rollback for this, so be carefull!
+git checkout master  |    Restore the "Head" to the latest check-in (this will be part of a later lesson/module)
+git log --graph --oneline <branch1> <branch2>  |    Show a visual representation of the commit history within different branches
+git checkout -b new_branch_name  |    Creates a new branch and do a checkout on this branch in one call instead of git branch new_branch_name and git checkout new_branch_name
+git merge branch1 branch2  |    Merge two branches, branch2 get merged into branch1
+git branch -d name  |    Remove the branch with the specified name
+git show commitId  |    Show the changes made in this commit compared to the previous version. This is working even after merging.
