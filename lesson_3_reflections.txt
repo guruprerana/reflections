@@ -25,6 +25,12 @@ I would use branches when I want to introduce a new
 feature which may or may not work, on my local
 computer.
 
+4.Q. What is the benefit of having a copy of the last 
+known state of the remote stored locally?
+We have as much information about the remote branch
+asd possible. We can continue to make changes locally
+with knowing how ahead of the remote we are.
+
 Commands:
 
 git remote  |    Show all remote locations for the repository
