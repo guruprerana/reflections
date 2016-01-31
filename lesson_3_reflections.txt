@@ -31,6 +31,13 @@ We have as much information about the remote branch
 asd possible. We can continue to make changes locally
 with knowing how ahead of the remote we are.
 
+5.Q. How would you collaborate without using Git or 
+GitHub? What would be easier, and what would be harder?
+I would use a cloud service like Google Drive or 
+Dropbox. The intuitive interface it provides would be
+better, but it does not give as much power on
+version-control as Git because it saves automatically.
+
 Commands:
 
 git remote  |    Show all remote locations for the repository
