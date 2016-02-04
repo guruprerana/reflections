@@ -38,16 +38,6 @@ Dropbox. The intuitive interface it provides would be
 better, but it does not give as much power on
 version-control as Git because it saves automatically.
 
-6.Q. When would you want to make changes in a separate 
-branch rather than directly in master? What benefits does 
-each approach have?
-When I want to introduce a new feature I am not completely
-sure will work or when I am collaborating on a project and
-I cannot make changes directly to the master branch.
-When I make a separate branch, I can create a pull request
-for it and get everyone's permission to merge it with the
-master.
-
 Commands:
 
 git remote  |    Show all remote locations for the repository
